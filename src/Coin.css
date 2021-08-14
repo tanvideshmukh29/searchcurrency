@@ -5,6 +5,7 @@
 }
 
 .coin-row {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -70,7 +71,8 @@
 @media only screen and (max-width: 600px){
 
     .coin-container{
-        margin: 8px;
+      
+        width: 100%;
         
     }
     
@@ -93,7 +95,9 @@
   align-items: center;
   height: 300px;
   border-bottom: 1px solid #d7d7d7;
-  width: 500px;
+   width: 100%;
+   margin-left: 9px;
+   
    }
     .coin-data{
         display: flex;
